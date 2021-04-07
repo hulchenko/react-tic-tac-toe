@@ -1,5 +1,17 @@
+@import url('https://fonts.googleapis.com/css2?family=Londrina+Solid&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Londrina+Solid&family=Varela+Round&display=swap');
+
+html {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-top: 150px;
+}
+
 body {
-  font: 14px 'Century Gothic', Futura, sans-serif;
+  background-image: url('22555.png');
+  font-family: 'Londrina Solid', cursive;
+  font: 14px;
   margin: 20px;
 }
 
@@ -15,22 +27,31 @@ ul {
 }
 
 .status {
+  color: firebrick;
   margin-bottom: 10px;
+  font-weight: bold;
+  font-size: 25px;
 }
 
 .square {
+  font-family: 'Londrina Solid', cursive;
+  font-family: 'Varela Round', sans-serif;
+  color: firebrick;
   background: #fff;
-  border: 1px solid #999;
+  border: 3px solid #ccc;
   float: left;
-  font-size: 24px;
+  font-size: 50px;
   font-weight: bold;
-  line-height: 34px;
-  height: 34px;
-  margin-right: -1px;
-  margin-top: -1px;
+  height: 100px;
+  margin-right: -2px;
+  margin-top: -2px;
   padding: 0;
   text-align: center;
-  width: 34px;
+  width: 100px;
+}
+
+.square:hover {
+  background-color: rgb(245, 243, 243);
 }
 
 .square:focus {
@@ -44,8 +65,36 @@ ul {
 .game {
   display: flex;
   flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
+.test {
+  background-color: transparent;
+  padding: 5px;
+  border-radius: 5px;
+  box-shadow: 1px 5px 30px rgba(0, 0, 0, 0.5);
 }
 
 .game-info {
   margin-left: 20px;
+}
+
+.reset {
+  font-family: 'Londrina Solid', cursive;
+  font-size: 20px;
+  border: none;
+  border-radius: 5px;
+  padding: 25px;
+  margin-top: 20px;
+  background-color: firebrick;
+  color: white;
+  cursor: pointer;
+  outline: none;
+}
+
+.reset:hover {
+  transform: scale(0.98);
+  background-color: rgb(178, 34, 34, 0.9);
 }
