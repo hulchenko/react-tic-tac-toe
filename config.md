@@ -1,7 +1,6 @@
 npx create-react-app my-app
-add files
+
 npm start (need to cd to my-app folder)
-numerize progress sequence in code
 
 GitHub deployment:
 
@@ -12,3 +11,4 @@ GitHub deployment:
 5.  in package.json - "predeploy": "npm run build", "deploy": "gh-pages -d build"
 6.  npm run deploy
 7.  git push origin main
+8.  indicate gh-page branch if pushed to it
