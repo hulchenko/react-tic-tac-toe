@@ -1,7 +1,5 @@
-Official React Tutorial Project
+## React Tic Tac Toe
 
-LIVE DEMO:
+### Live Demo:
 
 https://hulchenko.github.io/react-tic-tac-toe/
-
-![preview](https://i.imgur.com/vtBoI7M.png)
